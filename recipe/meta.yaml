@@ -1,5 +1,5 @@
 {% set name = "openspoor" %}
-{% set version = "0.1.5.1" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openspoor-{{ version }}.tar.gz
-  sha256: 4e9afb206302564ce60b44617d54eb9b92f8916086b3fe06023d7f4e09d45280
+  sha256: fb4c2d992886ef8c49327a0a31833f358a7b3c15433e66ac75fc8dc614048c32
 
 build:
   noarch: python
